@@ -6,9 +6,16 @@ public class Washer extends Appliance {
   public Washer() {
   }
 
-  public Washer(int $capacity) {
-    super();
-    this.capacity = $capacity;
+  public Washer(
+      String color,
+      char consumption,
+      int weight,
+      int capacity) {
+    super(
+        color,
+        consumption,
+        weight);
+    this.capacity = capacity;
   }
 
   public int getCapacity() {
@@ -20,12 +27,12 @@ public class Washer extends Appliance {
   }
 
   public void createWasher(
-      String $color,
-      int $weight,
-      char $consumption,
-      int $capacity) {
-    super.createAppliance($color, $consumption, $weight);
-    this.capacity = $capacity;
+      String color,
+      char consumption,
+      int weight,
+      int capacity) {
+    super.createAppliance(color, consumption, weight);
+    this.capacity = capacity;
   }
 
   @Override

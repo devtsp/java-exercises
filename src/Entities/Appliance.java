@@ -10,12 +10,11 @@ public class Appliance {
   }
 
   protected Appliance(
-      int price,
       String color,
       char consumption,
       int weight) {
-    this.price = price;
-    this.color = color;
+    this.price = 1000;
+    this.color = validateColor(color);
     this.consumption = validateConsumption(consumption);
     this.weight = weight;
   }
@@ -86,7 +85,7 @@ public class Appliance {
     this.price = 1000;
   }
 
-  protected void finalPrice() {
+  public void finalPrice() {
     switch (this.consumption) {
       case 'A':
         this.price += 1000;
