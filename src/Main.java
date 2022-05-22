@@ -1,10 +1,6 @@
 import java.util.ArrayList;
 
-import Entities.Animal;
-import Entities.Appliance;
-import Entities.Dog;
-import Entities.Television;
-import Entities.Washer;
+import Entities.*;
 
 public class Main {
   public static void main(String[] args) {
@@ -18,7 +14,7 @@ public class Main {
     Television anoatherTv = new Television();
     anoatherTv.createTelevision("color", 'j', 40, 46, false);
 
-    ArrayList<Appliance> appliances = new ArrayList<Appliance>();
+    ArrayList<Appliance> appliances = new ArrayList<>();
     appliances.add(newWahser);
     appliances.add(anotherWasher);
     appliances.add(newTv);
@@ -31,6 +27,15 @@ public class Main {
       System.out.println(a.getPrice());
     }
     System.out.println("TOTAL: $" + totalPrice);
+
+    Circle circle = new Circle(2.3);
+    Square square = new Square(1.1,3.6);
+
+    System.out.println(circle.calculateArea());
+    System.out.println(circle.calculatePerimeter());
+    System.out.println(square.calculateArea());
+    System.out.println(square.calculatePerimeter());
+
 
   }
 
