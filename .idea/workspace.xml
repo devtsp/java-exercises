@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f1daa4-cd73-4a43-8f87-f15a9f0b43de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" afterDir="false" />
-    </list>
+    <list default="true" id="81f1daa4-cd73-4a43-8f87-f15a9f0b43de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
