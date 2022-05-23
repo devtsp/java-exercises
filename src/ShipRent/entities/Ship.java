@@ -1,6 +1,7 @@
 package ShipRent.entities;
 
 public abstract class Ship {
+    private String type = "Basic Ship";
     private String license;
     private int length;
     private int fabricationYear;
@@ -35,5 +36,9 @@ public abstract class Ship {
 
     public void setFabricationYear(int fabricationYear) {
         this.fabricationYear = fabricationYear;
+    }
+
+    public String getType() {
+        return type;
     }
 }

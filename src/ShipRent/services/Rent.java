@@ -1,50 +1,44 @@
 package ShipRent.services;
 
+import ShipRent.entities.Customer;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 public abstract class Rent {
-    private String name;
-    private int id;
+    private Customer customer;
     private String rentStart;
     private String rentEnd;
+    private int days;
 
-    protected Rent() {};
-    protected Rent(String name, int id, String rentStart, String rentEnd) {
-        this.name = name;
-        this.id = id;
+    protected Rent(Customer customer, String rentStart, String rentEnd) {
+        this.customer = customer;
         this.rentStart = rentStart;
         this.rentEnd = rentEnd;
+        this.days = calculateDays(rentStart, rentEnd);
     }
+    protected Rent() {}
 
-    protected int calculateDays(String rentStart, String rentEnd) {
+    private int calculateDays(String rentStart, String rentEnd) {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         int days = 0;
         try {
             long date1 = formatter.parse(rentStart).getTime();
             long date2= formatter.parse(rentEnd).getTime();
             days = (int) Math.ceil((date2 - date1) / 1000 / 60 / 60 / 24);
-            return days;
+            this.days = days;
         } catch (ParseException error) {
             error.printStackTrace();
         }
         return days;
     }
 
-    protected String getName() {
-        return name;
+    public Customer getCustomer() {
+        return customer;
     }
 
-    protected void setName(String name) {
-        this.name = name;
-    }
-
-    protected int getId() {
-        return id;
-    }
-
-    protected void setId(int id) {
-        this.id = id;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 
     protected String getRentStart() {
@@ -62,4 +56,9 @@ public abstract class Rent {
     protected void setRentEnd(String rentEnd) {
         this.rentEnd = rentEnd;
     }
+
+    public int getDays() {
+        return days;
+    }
+
 }

@@ -1,23 +1,26 @@
 package ShipRent.services;
 
+import ShipRent.entities.Customer;
 import ShipRent.entities.Ship;
 
-public class ShipRent extends Rent{
 
+public class ShipRent extends Rent{
+    private Ship ship;
+    public ShipRent(Customer customer,  String rentStart, String rentEnd, Ship ship) {
+        super(customer, rentStart, rentEnd);
+        this.ship = ship;
+    }
     public ShipRent() {};
 
-    public ShipRent(String name, int id, String rentStart, String rentEnd) {
-        super(name, id, rentStart, rentEnd);
+    public float calculateRent(Ship ship, int extraCosts) {
+        return this.getDays() * ship.getLength() * 10;
     }
 
-    public float calculateShipRent(Ship ship) {
-        float result = 0;
-        float module = ship.getLength() * 10;
-        float days = super.calculateDays(this.getRentStart(), this.getRentEnd());
-        result = days * module;
-
-        return result;
+    public Ship getShip() {
+        return ship;
     }
 
-
+    public void setShip(Ship ship) {
+        this.ship = ship;
+    }
 }

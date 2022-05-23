@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f1daa4-cd73-4a43-8f87-f15a9f0b43de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApplianceStore/ApplianceStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesUtils/ShapeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Appliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Appliance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/entities/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/entities/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Washer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Washer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/ShapeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/interfaces/ShapeCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,34 +46,47 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ApplianceStore">
+  <component name="RunManager" selected="Application.ShipRentApp">
     <configuration name="ApplianceStore" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ApplianceStore.ApplianceStore" />
-      <module name="Course" />
+      <module name="java-exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeUtils" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ShapesUtils.ShapeUtils" />
+      <module name="java-exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ShipRentApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ShipRent.ShipRentApp" />
-      <module name="Course" />
+      <module name="java-exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Course" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java-exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java-exercises" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ShipRentApp" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ShapeUtils" />
       <item itemvalue="Application.ApplianceStore" />
     </list>
   </component>

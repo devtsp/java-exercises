@@ -1,6 +1,7 @@
 package ShipRent.entities;
 
 public class MotorBoat extends Ship {
+    private final String type = "Medium Motor Boat";
     private int power;
 
     public MotorBoat(){};
@@ -17,4 +18,5 @@ public class MotorBoat extends Ship {
     public void setPower(int power) {
         this.power = power;
     }
+
 }

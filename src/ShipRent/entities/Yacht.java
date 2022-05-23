@@ -1,6 +1,7 @@
 package ShipRent.entities;
 
 public class Yacht extends Ship{
+    private final String type = "Luxury Yatch";
     private int power;
     private int cabins;
     public Yacht(String license, int length, int fabricationYear, int power, int cabins) {
@@ -24,4 +25,5 @@ public class Yacht extends Ship{
     public void setCabins(int cabins) {
         this.cabins = cabins;
     }
+
 }
