@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f1daa4-cd73-4a43-8f87-f15a9f0b43de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/ShapeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplianceStore/ApplianceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShapesUtils/ShapeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/ShipRentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/MotorBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Sailboat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/entities/Yacht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/services/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipRent/services/ShipRent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Appliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Appliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/entities/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/entities/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Washer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplianceStore/entities/Washer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/ShapeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapesUtils/interfaces/ShapeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +57,33 @@
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.ApplianceStore">
+    <configuration name="ApplianceStore" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ApplianceStore.ApplianceStore" />
       <module name="Course" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="ShipRentApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ShipRent.ShipRentApp" />
+      <module name="Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ShipRentApp" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ApplianceStore" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

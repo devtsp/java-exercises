@@ -1,6 +1,6 @@
-package Entities;
+package ApplianceStore.entities;
 
-public class Appliance {
+public abstract class Appliance {
   protected int price;
   protected String color;
   protected char consumption;

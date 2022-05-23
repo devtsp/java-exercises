@@ -1,4 +1,4 @@
-package Entities;
+package ApplianceStore.entities;
 
 public class Television extends Appliance {
     private int resolution;

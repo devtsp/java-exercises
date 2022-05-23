@@ -1,6 +1,6 @@
-package Entities;
+package ShapesUtils.entities;
 
-import Interfaces.ShapeCalculator;
+import ShapesUtils.interfaces.ShapeCalculator;
 
 public class Circle implements ShapeCalculator {
     private double radius;

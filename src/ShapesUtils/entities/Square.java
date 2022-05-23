@@ -1,6 +1,6 @@
-package Entities;
+package ShapesUtils.entities;
 
-import Interfaces.ShapeCalculator;
+import ShapesUtils.interfaces.ShapeCalculator;
 
 public class Square implements ShapeCalculator {
     private double width;

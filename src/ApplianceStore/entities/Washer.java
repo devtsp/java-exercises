@@ -1,4 +1,4 @@
-package Entities;
+package ApplianceStore.entities;
 
 public class Washer extends Appliance {
   private int capacity;

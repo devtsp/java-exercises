@@ -1,4 +1,4 @@
-package Interfaces;
+package ShapesUtils.interfaces;
 
 public interface ShapeCalculator {
     final double pi = 3.14;
